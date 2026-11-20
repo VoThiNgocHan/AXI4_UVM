@@ -1,0 +1,88 @@
+D:/AXI_UVM/scoreboard.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/scoreboard.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/scoreboard.sv(1): near "uvm_subscriber": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/scoreboard.sv(1): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/test.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/test.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/test.sv(40): near "uvm_test": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/test.sv(40): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/axi_seq_item.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/axi_seq_item.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/axi_seq_item.sv(90): near "uvm_sequence_item": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/axi_seq_item.sv(90): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/axi_env.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/axi_env.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Note: (vlog-2286) D:/AXI_UVM/axi_env.sv(73): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: D:/AXI_UVM/axi_env.sv(79): Invalid type 'master_agent'. Please check the type of the variable 'agent'.
+** Error: D:/AXI_UVM/axi_env.sv(80): Invalid type 'axi_scoreboard'. Please check the type of the variable 'scoreboard'.
+** Error: D:/AXI_UVM/axi_env.sv(90): (vlog-2730) Undefined variable: 'agent'.
+** Error: D:/AXI_UVM/axi_env.sv(90): (vlog-2164) Class or package 'master_agent' not found.
+** Error: D:/AXI_UVM/axi_env.sv(90): (vlog-2730) Undefined variable: 'master_agent'.
+** Error: (vlog-13069) D:/AXI_UVM/axi_env.sv(90): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: D:/AXI_UVM/axi_env.sv(91): (vlog-2730) Undefined variable: 'scoreboard'.
+** Error: D:/AXI_UVM/axi_env.sv(91): (vlog-2164) Class or package 'axi_scoreboard' not found.
+** Error: D:/AXI_UVM/axi_env.sv(91): (vlog-2730) Undefined variable: 'axi_scoreboard'.
+** Error: (vlog-13069) D:/AXI_UVM/axi_env.sv(91): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 14.0} {}} D:/AXI_UVM/axi_sequence.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/axi_sequence.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/axi_sequence.sv(59): near "uvm_sequence": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/axi_sequence.sv(59): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/design.sv {1 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/design.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module axi_ram
+
+Top level modules:
+	axi_ram
+
+} {} {}} D:/AXI_UVM/master_sequencer.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/master_sequencer.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/master_sequencer.sv(20): near "uvm_sequencer": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/master_sequencer.sv(20): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/sva_checker.sv {1 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/sva_checker.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module sva_checker
+
+Top level modules:
+	sva_checker
+
+} {} {}} D:/AXI_UVM/master_driver.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/master_driver.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/master_driver.sv(63): near "uvm_driver": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/master_driver.sv(63): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/testbench.sv {0 {vlog -work work -vopt -sv -stats=none {D:\AXI_UVM\testbench.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Note: (vlog-2286) D:\AXI_UVM\testbench.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error (suppressible): ** while parsing file included at D:\AXI_UVM\testbench.sv(8)
+** at D:\AXI_UVM/axi_sequence.sv(76): (vlog-2745) Expected #() syntax as parameterized class prefix to '::' near "type_id".
+** Error (suppressible): ** while parsing file included at D:\AXI_UVM\testbench.sv(8)
+** at D:\AXI_UVM/axi_sequence.sv(81): (vlog-2745) Expected #() syntax as parameterized class prefix to '::' near "write".
+** Error (suppressible): ** while parsing file included at D:\AXI_UVM\testbench.sv(8)
+** at D:\AXI_UVM/axi_sequence.sv(102): (vlog-2745) Expected #() syntax as parameterized class prefix to '::' near "type_id".
+** Error (suppressible): ** while parsing file included at D:\AXI_UVM\testbench.sv(8)
+** at D:\AXI_UVM/axi_sequence.sv(107): (vlog-2745) Expected #() syntax as parameterized class prefix to '::' near "read".
+
+} {} {}} D:/AXI_UVM/interface.sv {1 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/interface.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling interface axi_intf
+
+Top level modules:
+	--none--
+
+} {} {}} D:/AXI_UVM/master_agent.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/master_agent.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/master_agent.sv(27): near "uvm_agent": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/master_agent.sv(27): Error in class extension specification.
+
+} {3.0 5.0} {}} D:/AXI_UVM/master_monitor.sv {0 {vlog -work work -vopt -sv -stats=none D:/AXI_UVM/master_monitor.sv
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Error: (vlog-13069) D:/AXI_UVM/master_monitor.sv(44): near "uvm_monitor": syntax error, unexpected IDENTIFIER.
+** Error: D:/AXI_UVM/master_monitor.sv(44): Error in class extension specification.
+
+} {3.0 5.0} {}}

@@ -1,0 +1,9 @@
+cov/
+coverage/
+*.ucdb
+*.cov
+work/
+transcript
+vsim.wlf
+*.vstf
+*.log
