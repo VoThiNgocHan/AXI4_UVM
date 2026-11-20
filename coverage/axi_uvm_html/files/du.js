@@ -1,2 +1,0 @@
-var g_data = {"data":[{"n":"work.axi_intf","id":1,"zf":1,"tc":51.28,"s":100.00,"t":2.57},{"n":"work.axi_ram","id":4,"zf":1,"tc":29.58,"s":70.94,"b":36.58,"fc":4.54,"fe":0.00,"fs":66.66,"ft":25.00,"t":3.33},{"n":"work.sva_checker","id":5,"zf":1,"tc":20.74,"s":22.22,"b":40.00,"fc":0.00},{"n":"work.tb","id":3,"zf":1,"tc":80.76,"s":92.30,"b":50.00,"t":100.00},{"n":"work.testbench_sv_unit","id":2,"zf":1,"tc":18.54,"s":35.18,"b":12.12,"fc":8.33}]};
-processDuData(g_data);

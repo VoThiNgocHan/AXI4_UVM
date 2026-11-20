@@ -1,2 +1,0 @@
-var g_data = {"ds_list":{"9":[6,"sva",68.42,1],"6":[-1,"tb",68.42,1],"10":[-1,"testbench_sv_unit",100.00,1]},"ds":{"a":[20,14,70.00],"tc":70.00},"du":{"a":[20,14,70.00],"tc":70.00}};
-processOverallduData(g_data);

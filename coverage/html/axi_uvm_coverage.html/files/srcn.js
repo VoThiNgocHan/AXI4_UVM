@@ -1,2 +1,0 @@
-var g_data = ["","interface.sv","testbench.sv","axi_seq_item.sv","axi_sequence.sv","master_sequencer.sv","master_driver.sv","master_monitor.sv","master_agent.sv","scoreboard.sv","axi_env.sv","test.sv","design.sv","sva_checker.sv"];
-processSrcNamesData(g_data);
