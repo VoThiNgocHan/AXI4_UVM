@@ -1,0 +1,26 @@
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# axi_wd_stable_wave.wlf opened as dataset "axi_wd_stable_wave"
+# Load canceled
+add wave -position insertpoint axi_wd_stable_wave:/tb/*
+add wave axi_wd_stable_wave:/tb/intf/*
+coverage report -html -output covhtmlreport -annotate -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Coverage command may be used in loaded simulation and in viewcov mode only.
+coverage report -html -output covhtmlreport -annotate -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Coverage command may be used in loaded simulation and in viewcov mode only.
+coverage report -output report.txt -srcfile=* -assert -directive -cvg -codeAll
+# Coverage command may be used in loaded simulation and in viewcov mode only.
+coverage report -html -output D:/AXI_UVM/cov -annotate -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Coverage command may be used in loaded simulation and in viewcov mode only.

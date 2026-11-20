@@ -1,0 +1,2 @@
+var g_data = {"8":{"pr":"/tb/dut","fsms":[["write_state_reg",12,195,[["WRITE_STATE_IDLE",0,12,195,2,"                 0"],["WRITE_STATE_BURST",0,12,212,2,"                 1"],["WRITE_STATE_RESP",0,12,238,0,"                 2"],["WRITE_STATE_IDLE -> WRITE_STATE_BURST",1,12,207,1,0],["WRITE_STATE_BURST -> WRITE_STATE_RESP",1,12,231,0,1],["WRITE_STATE_BURST -> WRITE_STATE_IDLE",1,12,229,0,2],["WRITE_STATE_RESP -> WRITE_STATE_IDLE",1,12,243,0,3]],66.66,25.00]]}};
+processFsmData(g_data);

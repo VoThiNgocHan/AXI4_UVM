@@ -1,0 +1,123 @@
+coverage report -assert -details
+# Coverage Report by instance with details
+# 
+# =================================================================================
+# === Instance: /tb/sva
+# === Design Unit: work.sva_checker
+# =================================================================================
+# 
+# Assertion Coverage:
+#     Assertions                      19         4        15    21.05%
+# --------------------------------------------------------------------
+# Name                 File(Line)                   Failure      Pass 
+#                                                   Count        Count
+# --------------------------------------------------------------------
+# /tb/sva/AXI_WA_HANDSHAKING_CHECK
+#                      sva_checker.sv(397)                0          1
+# /tb/sva/AXI_WA_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(406)                0          0
+# /tb/sva/AXI_WA_UNKNOWN_VALUE_CHECK
+#                      sva_checker.sv(413)                0          0
+# /tb/sva/AXI_WA_VALID_STABLE_CHECK
+#                      sva_checker.sv(419)                0          0
+# /tb/sva/AXI_WA_MAX_WAIT_CHECK
+#                      sva_checker.sv(425)                0          0
+# /tb/sva/AXI_WA_BURST_CHECK
+#                      sva_checker.sv(431)                0          0
+# /tb/sva/AXI_WA_SIZE_CHECK
+#                      sva_checker.sv(437)                0          0
+# /tb/sva/AXI_WD_HANDSHAKING_CHECK
+#                      sva_checker.sv(447)                0          1
+# /tb/sva/AXI_WD_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(452)                0          0
+# /tb/sva/AXI_WD_UNKNOWN_SIGNALS_CHECK
+#                      sva_checker.sv(457)                0          0
+# /tb/sva/AXI_WD_MAX_WAIT_CHECK
+#                      sva_checker.sv(462)                0          0
+# /tb/sva/AXI_WR_HANDSHAKING_CHECK
+#                      sva_checker.sv(472)                0          1
+# /tb/sva/AXI_WR_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(477)                0          0
+# /tb/sva/AXI_WR_UNKNOWN_SIGNALS_CHECK
+#                      sva_checker.sv(482)                0          0
+# /tb/sva/AXI_RA_HANDSHAKING_CHECK
+#                      sva_checker.sv(492)                0          1
+# /tb/sva/AXI_RA_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(500)                0          0
+# /tb/sva/AXI_RA_MAX_WAIT_CHECK
+#                      sva_checker.sv(505)                0          0
+# /tb/sva/AXI_RD_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(517)                0          0
+# /tb/sva/AXI_RD_UNKNOWN_SIGNALS_CHECK
+#                      sva_checker.sv(522)                0          0
+# 
+# =================================================================================
+# === Instance: /testbench_sv_unit
+# === Design Unit: work.testbench_sv_unit
+# =================================================================================
+# 
+# Assertion Coverage:
+#     Assertions                       2         2         0   100.00%
+# --------------------------------------------------------------------
+# Name                 File(Line)                   Failure      Pass 
+#                                                   Count        Count
+# --------------------------------------------------------------------
+# /testbench_sv_unit/axi_sequence/body/immed__132
+#                      axi_sequence.sv(132)               0          1
+# /testbench_sv_unit/axi_sequence/body/immed__117
+#                      axi_sequence.sv(117)               0          1
+# 
+# 
+# ASSERTION RESULTS:
+# --------------------------------------------------------------------
+# Name                 File(Line)                   Failure      Pass 
+#                                                   Count        Count
+# --------------------------------------------------------------------
+# /tb/sva/AXI_WA_HANDSHAKING_CHECK
+#                      sva_checker.sv(397)                0          1
+# /tb/sva/AXI_WA_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(406)                0          0
+# /tb/sva/AXI_WA_UNKNOWN_VALUE_CHECK
+#                      sva_checker.sv(413)                0          0
+# /tb/sva/AXI_WA_VALID_STABLE_CHECK
+#                      sva_checker.sv(419)                0          0
+# /tb/sva/AXI_WA_MAX_WAIT_CHECK
+#                      sva_checker.sv(425)                0          0
+# /tb/sva/AXI_WA_BURST_CHECK
+#                      sva_checker.sv(431)                0          0
+# /tb/sva/AXI_WA_SIZE_CHECK
+#                      sva_checker.sv(437)                0          0
+# /tb/sva/AXI_WD_HANDSHAKING_CHECK
+#                      sva_checker.sv(447)                0          1
+# /tb/sva/AXI_WD_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(452)                0          0
+# /tb/sva/AXI_WD_UNKNOWN_SIGNALS_CHECK
+#                      sva_checker.sv(457)                0          0
+# /tb/sva/AXI_WD_MAX_WAIT_CHECK
+#                      sva_checker.sv(462)                0          0
+# /tb/sva/AXI_WR_HANDSHAKING_CHECK
+#                      sva_checker.sv(472)                0          1
+# /tb/sva/AXI_WR_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(477)                0          0
+# /tb/sva/AXI_WR_UNKNOWN_SIGNALS_CHECK
+#                      sva_checker.sv(482)                0          0
+# /tb/sva/AXI_RA_HANDSHAKING_CHECK
+#                      sva_checker.sv(492)                0          1
+# /tb/sva/AXI_RA_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(500)                0          0
+# /tb/sva/AXI_RA_MAX_WAIT_CHECK
+#                      sva_checker.sv(505)                0          0
+# /tb/sva/AXI_RD_STABLE_SIGNALS_CHECK
+#                      sva_checker.sv(517)                0          0
+# /tb/sva/AXI_RD_UNKNOWN_SIGNALS_CHECK
+#                      sva_checker.sv(522)                0          0
+# /testbench_sv_unit/axi_sequence/body/immed__132
+#                      axi_sequence.sv(132)               0          1
+# /testbench_sv_unit/axi_sequence/body/immed__117
+#                      axi_sequence.sv(117)               0          1
+# 
+# Total Coverage By Instance (filtered view): 28.57%
+# 
+# 
+
+coverage report -assert -details

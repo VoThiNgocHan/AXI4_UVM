@@ -1,0 +1,70 @@
+BEGIN 3:axi_intf:fast__1:questa_work
+    ARID :  1:testbench_sv_unit:fast:questa_work
+    AWID :  1:testbench_sv_unit:fast:questa_work
+    WVALID :  1:testbench_sv_unit:fast:questa_work
+    ARLEN :  1:testbench_sv_unit:fast:questa_work
+    ARREADY :  1:testbench_sv_unit:fast:questa_work
+    AWLEN :  1:testbench_sv_unit:fast:questa_work
+    AWREADY :  1:testbench_sv_unit:fast:questa_work
+    BREADY :  1:testbench_sv_unit:fast:questa_work
+    ARBURST :  1:testbench_sv_unit:fast:questa_work
+    RRESP :  1:testbench_sv_unit:fast:questa_work
+    AWBURST :  1:testbench_sv_unit:fast:questa_work
+    WDATA :  1:testbench_sv_unit:fast:questa_work
+    BRESP :  1:testbench_sv_unit:fast:questa_work
+    ARESETn :  1:testbench_sv_unit:fast:questa_work
+    RVALID :  1:testbench_sv_unit:fast:questa_work
+    WLAST :  1:testbench_sv_unit:fast:questa_work
+    ARADDR :  1:testbench_sv_unit:fast:questa_work
+    ARVALID :  1:testbench_sv_unit:fast:questa_work
+    AWADDR :  1:testbench_sv_unit:fast:questa_work
+    AWVALID :  1:testbench_sv_unit:fast:questa_work
+    WREADY :  1:testbench_sv_unit:fast:questa_work
+    ARSIZE :  1:testbench_sv_unit:fast:questa_work
+    RDATA :  1:testbench_sv_unit:fast:questa_work
+    AWSIZE :  1:testbench_sv_unit:fast:questa_work
+    ACLK :  1:testbench_sv_unit:fast:questa_work
+    BVALID :  1:testbench_sv_unit:fast:questa_work
+    RLAST :  1:testbench_sv_unit:fast:questa_work
+    RREADY :  1:testbench_sv_unit:fast:questa_work
+    WSTRB :  1:testbench_sv_unit:fast:questa_work
+END 
+BEGIN 3:axi_intf:fast__2:questa_work
+    AWLOCK :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    RID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWLEN :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARPROT :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWREADY :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARSIZE :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ACLK :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    BRESP :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    BVALID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    WDATA :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWCACHE :  1:tb:fast:questa_work
+    AWPROT :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    RDATA :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWSIZE :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    RVALID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARBURST :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARESETn :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARADDR :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARVALID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    BREADY :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    WSTRB :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARCACHE :  1:tb:fast:questa_work
+    WVALID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    RRESP :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWBURST :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    RREADY :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWADDR :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARLOCK :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    AWVALID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARLEN :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    ARREADY :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    BID :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    WLAST :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    WREADY :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+    RLAST :  1:sva_checker:fast:questa_work 1:tb:fast:questa_work
+END 

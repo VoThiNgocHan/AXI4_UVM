@@ -1,0 +1,2 @@
+var g_data = ["","D:/AXI_UVM/interface.sv","D:/AXI_UVM/testbench.sv","D:/AXI_UVM/axi_seq_item.sv","D:/AXI_UVM/axi_sequence.sv","D:/AXI_UVM/master_sequencer.sv","D:/AXI_UVM/master_driver.sv","D:/AXI_UVM/master_monitor.sv","D:/AXI_UVM/master_agent.sv","D:/AXI_UVM/scoreboard.sv","D:/AXI_UVM/axi_env.sv","D:/AXI_UVM/test.sv","D:/AXI_UVM/design.sv","D:/AXI_UVM/sva_checker.sv"];
+processSrcNamesData(g_data);

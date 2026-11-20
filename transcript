@@ -1,0 +1,5 @@
+# onerror {quit -f -code 1}
+#  Warning: onerror command for use within macro
+#  if {![file exists work]} {vlib work}
+#  file mkdir coverage
+#  transcript file coverage/questa_coverage.log

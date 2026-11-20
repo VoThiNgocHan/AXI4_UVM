@@ -1,0 +1,1746 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb/intf
+=== Design Unit: work.axi_intf
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13        13         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb/intf --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/interface.sv
+    148             1                          1     
+    153             1                          1     
+    165             1                          1     
+    171             1                          1     
+    173             1                          1     
+    174             1                          1     
+    175             1                          1     
+    187             1                          1     
+    189             1                          1     
+    190             1                          1     
+    191             1                          1     
+    192             1                          1     
+    193             1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        384        39       345    10.15%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb/intf --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                      ARADDR[0-15]           0           0                                0.00 
+                                      ARBURST[0-1]           0           0                                0.00 
+                                      ARCACHE[0-3]           0           0                                0.00 
+                                           ARESETn           1           0                               50.00 
+                                         ARID[0-7]           0           0                                0.00 
+                                        ARLEN[0-7]           0           0                                0.00 
+                                            ARLOCK           0           0                                0.00 
+                                       ARPROT[0-2]           0           0                                0.00 
+                                       ARSIZE[0-2]           0           0                                0.00 
+                                      AWADDR[0-15]           0           0                                0.00 
+                                      AWBURST[0-1]           0           0                                0.00 
+                                      AWCACHE[0-3]           0           0                                0.00 
+                                         AWID[0-7]           0           0                                0.00 
+                                        AWLEN[0-7]           0           0                                0.00 
+                                            AWLOCK           0           0                                0.00 
+                                       AWPROT[0-2]           0           0                                0.00 
+                                       AWSIZE[0-2]           0           0                                0.00 
+                                          BID[0-7]           0           0                                0.00 
+                                        BRESP[0-1]           0           0                                0.00 
+                                          RDATA[0]           0           0                                0.00 
+                                          RDATA[1]           0           1                               50.00 
+                                          RDATA[2]           0           0                                0.00 
+                                        RDATA[3-4]           0           1                               50.00 
+                                          RDATA[5]           0           0                                0.00 
+                                          RDATA[6]           0           1                               50.00 
+                                        RDATA[7-8]           0           0                                0.00 
+                                          RDATA[9]           0           1                               50.00 
+                                         RDATA[10]           0           0                                0.00 
+                                      RDATA[11-12]           0           1                               50.00 
+                                         RDATA[13]           0           0                                0.00 
+                                         RDATA[14]           0           1                               50.00 
+                                         RDATA[15]           0           0                                0.00 
+                                         RDATA[16]           0           1                               50.00 
+                                         RDATA[17]           0           0                                0.00 
+                                         RDATA[18]           0           1                               50.00 
+                                      RDATA[19-20]           0           0                                0.00 
+                                         RDATA[21]           0           1                               50.00 
+                                         RDATA[22]           0           0                                0.00 
+                                      RDATA[23-24]           0           1                               50.00 
+                                         RDATA[25]           0           0                                0.00 
+                                         RDATA[26]           0           1                               50.00 
+                                      RDATA[27-28]           0           0                                0.00 
+                                         RDATA[29]           0           1                               50.00 
+                                         RDATA[30]           0           0                                0.00 
+                                         RDATA[31]           0           1                               50.00 
+                                          RID[0-7]           0           0                                0.00 
+                                             RLAST           0           1                               50.00 
+                                            RREADY           0           1                               50.00 
+                                        RRESP[0-1]           0           0                                0.00 
+                                            RVALID           0           1                               50.00 
+                                       WDATA[0-31]           0           0                                0.00 
+                                             WLAST           1           0                               50.00 
+                                        WSTRB[0-3]           0           0                                0.00 
+
+Total Node Count     =        192 
+Toggled Node Count   =          9 
+Untoggled Node Count =        183 
+
+Toggle Coverage      =      10.15% (39 of 384 bins)
+
+=================================================================================
+=== Instance: /tb/dut
+=== Design Unit: work.axi_ram
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        41        26        15    63.41%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/design.sv
+------------------------------------CASE Branch------------------------------------
+    194                                        8     Count coming in to CASE
+    195             1                          7     
+    212             1                          1     
+    238             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 2 hits of 4 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    198                                        7     Count coming in to IF
+    198             1                          1     
+    208             1                          6     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    202                                        1     Count coming in to IF
+    202             1                    ***0***     
+    202             2                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    215                                        1     Count coming in to IF
+    215             1                          1     
+    234             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    217                                        1     Count coming in to IF
+    217             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    221                                        1     Count coming in to IF
+    221             1                    ***0***     
+    223             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    225                                        1     Count coming in to IF
+    225             1                          1     
+    230             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    239                                  ***0***     Count coming in to IF
+    239             1                    ***0***     
+    244             1                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    266                                       28     Count coming in to IF
+    266             1                          4     
+                                              24     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    271                                        7     Count coming in to IF
+    271             1                          1     
+                                               6     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    297                                        7     Count coming in to CASE
+    298             1                          6     
+    314             1                          1     
+                                         ***0***     All False Count
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    301                                        6     Count coming in to IF
+    301             1                          1     
+    310             1                          5     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    305                                        1     Count coming in to IF
+    305             1                    ***0***     
+    305             2                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    315                                        1     Count coming in to IF
+    315             1                          1     
+    330             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    320                                        1     Count coming in to IF
+    320             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    324                                        1     Count coming in to IF
+    324             1                    ***0***     
+    326             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    351                                       13     Count coming in to IF
+    351             1                          1     
+                                              12     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    355                                       13     Count coming in to IF
+    355             1                         13     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    362                                       13     Count coming in to IF
+    362             1                          5     
+                                               8     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      22         5        17    22.72%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb/dut --
+
+  File D:/AXI_UVM/design.sv
+----------------Focused Condition View-------------------
+Line       198 Item    1  (s_axi_awready && s_axi_awvalid)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       202 Item    1  (s_axi_awsize < 2)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (s_axi_awsize < 2)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (s_axi_awsize < 2)_0  -                             
+  Row   2:    ***0***  (s_axi_awsize < 2)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       215 Item    1  (s_axi_wready && s_axi_wvalid)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  s_axi_wready         N  '_0' not hit             Hit '_0'
+  s_axi_wvalid         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  s_axi_wready_0        -                             
+  Row   2:          1  s_axi_wready_1        s_axi_wvalid                  
+  Row   3:    ***0***  s_axi_wvalid_0        s_axi_wready                  
+  Row   4:          1  s_axi_wvalid_1        s_axi_wready                  
+
+----------------Focused Condition View-------------------
+Line       217 Item    1  (write_burst_reg != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+              Input Term   Covered  Reason for no coverage   Hint
+             -----------  --------  -----------------------  --------------
+  (write_burst_reg != 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target                Non-masking condition(s)      
+ ---------  ---------  --------------------      -------------------------     
+  Row   1:    ***0***  (write_burst_reg != 0)_0  -                             
+  Row   2:          1  (write_burst_reg != 0)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       221 Item    1  (write_count_reg > 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+             Input Term   Covered  Reason for no coverage   Hint
+            -----------  --------  -----------------------  --------------
+  (write_count_reg > 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target               Non-masking condition(s)      
+ ---------  ---------  --------------------     -------------------------     
+  Row   1:          1  (write_count_reg > 0)_0  -                             
+  Row   2:    ***0***  (write_count_reg > 0)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       225 Item    1  (s_axi_bready || ~s_axi_bvalid)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  s_axi_bready         N  No hits                  Hit '_0' and '_1'
+  s_axi_bvalid         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  s_axi_bready_0        s_axi_bvalid                  
+  Row   2:    ***0***  s_axi_bready_1        -                             
+  Row   3:          1  s_axi_bvalid_0        ~s_axi_bready                 
+  Row   4:    ***0***  s_axi_bvalid_1        ~s_axi_bready                 
+
+----------------Focused Condition View-------------------
+Line       239 Item    1  (s_axi_bready || ~s_axi_bvalid)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  s_axi_bready         N  No hits                  Hit '_0' and '_1'
+  s_axi_bvalid         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  s_axi_bready_0        s_axi_bvalid                  
+  Row   2:    ***0***  s_axi_bready_1        -                             
+  Row   3:    ***0***  s_axi_bvalid_0        ~s_axi_bready                 
+  Row   4:    ***0***  s_axi_bvalid_1        ~s_axi_bready                 
+
+----------------Focused Condition View-------------------
+Line       266 Item    1  (mem_wr_en & s_axi_wstrb[i])
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+       mem_wr_en         Y
+  s_axi_wstrb[i]         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  mem_wr_en_0           s_axi_wstrb[i]                
+  Row   2:          1  mem_wr_en_1           s_axi_wstrb[i]                
+  Row   3:    ***0***  s_axi_wstrb[i]_0      mem_wr_en                     
+  Row   4:          1  s_axi_wstrb[i]_1      mem_wr_en                     
+
+----------------Focused Condition View-------------------
+Line       301 Item    1  (s_axi_arready && s_axi_arvalid)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       305 Item    1  (s_axi_arsize < 2)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (s_axi_arsize < 2)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (s_axi_arsize < 2)_0  -                             
+  Row   2:    ***0***  (s_axi_arsize < 2)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       315 Item    1  (s_axi_rready || ~s_axi_rvalid_reg)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+      s_axi_rready         N  '_0' not hit             Hit '_0'
+  s_axi_rvalid_reg         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  s_axi_rready_0        s_axi_rvalid_reg              
+  Row   2:          1  s_axi_rready_1        -                             
+  Row   3:    ***0***  s_axi_rvalid_reg_0    ~s_axi_rready                 
+  Row   4:    ***0***  s_axi_rvalid_reg_1    ~s_axi_rready                 
+
+----------------Focused Condition View-------------------
+Line       320 Item    1  (read_burst_reg != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+             Input Term   Covered  Reason for no coverage   Hint
+            -----------  --------  -----------------------  --------------
+  (read_burst_reg != 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target               Non-masking condition(s)      
+ ---------  ---------  --------------------     -------------------------     
+  Row   1:    ***0***  (read_burst_reg != 0)_0  -                             
+  Row   2:          1  (read_burst_reg != 0)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       324 Item    1  (read_count_reg > 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (read_count_reg > 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (read_count_reg > 0)_0  -                             
+  Row   2:    ***0***  (read_count_reg > 0)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       355 Item    1  (~s_axi_rvalid_pipe_reg || s_axi_rready)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+             Input Term   Covered  Reason for no coverage   Hint
+            -----------  --------  -----------------------  --------------
+  s_axi_rvalid_pipe_reg         N  '_1' not hit             Hit '_1'
+           s_axi_rready         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target               Non-masking condition(s)      
+ ---------  ---------  --------------------     -------------------------     
+  Row   1:          1  s_axi_rvalid_pipe_reg_0  -                             
+  Row   2:    ***0***  s_axi_rvalid_pipe_reg_1  ~s_axi_rready                 
+  Row   3:    ***0***  s_axi_rready_0           s_axi_rvalid_pipe_reg         
+  Row   4:    ***0***  s_axi_rready_1           s_axi_rvalid_pipe_reg         
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb/dut --
+
+  File D:/AXI_UVM/design.sv
+----------------Focused Expression View-----------------
+Line       192 Item    1  (s_axi_bvalid_reg && ~s_axi_bready)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       287 Item    1  (s_axi_rvalid_reg && ~s_axi_rready)
+Expression totals: 0 of 2 input terms covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  s_axi_rvalid_reg         N  '_1' not hit             Hit '_1'
+      s_axi_rready         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  s_axi_rvalid_reg_0    -                             
+  Row   2:    ***0***  s_axi_rvalid_reg_1    ~s_axi_rready                 
+  Row   3:    ***0***  s_axi_rready_0        s_axi_rvalid_reg              
+  Row   4:          1  s_axi_rready_1        s_axi_rvalid_reg              
+
+----------------Focused Expression View-----------------
+Line       319 Item    1  (read_count_reg == 0)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+             Input Term   Covered  Reason for no coverage   Hint
+            -----------  --------  -----------------------  --------------
+  (read_count_reg == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target               Non-masking condition(s)      
+ ---------  ---------  --------------------     -------------------------     
+  Row   1:    ***0***  (read_count_reg == 0)_0  -                             
+  Row   2:          1  (read_count_reg == 0)_1  -                             
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       3         2         1    66.66%
+    FSM Transitions                  4         2         2    50.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /tb/dut --
+
+FSM_ID: write_state_reg
+    Current State Object : write_state_reg
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 195    WRITE_STATE_IDLE                   0
+ 212   WRITE_STATE_BURST                   1
+ 238    WRITE_STATE_RESP                   2
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+        WRITE_STATE_IDLE                   6          
+       WRITE_STATE_BURST                   1          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 207                   0                   1          WRITE_STATE_IDLE -> WRITE_STATE_BURST          
+ 229                   2                   1          WRITE_STATE_BURST -> WRITE_STATE_IDLE          
+    Uncovered States :
+    ------------------
+                   State
+                   -----
+        WRITE_STATE_RESP
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+ 231                   1          WRITE_STATE_BURST -> WRITE_STATE_RESP
+ 243                   3          WRITE_STATE_RESP -> WRITE_STATE_IDLE
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   3         2         1    66.66%
+        FSM Transitions              4         2         2    50.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     117       107        10    91.45%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/design.sv
+    149             1                          2     
+    150             1                          2     
+    151             1                          3     
+    152             1                          3     
+    171             1                          1     
+    171             2                        128     
+    172             1                        128     
+    172             2                      16384     
+    173             1                      16384     
+    178             1                          8     
+    179             1                          8     
+    181             1                          8     
+    183             1                          8     
+    184             1                          8     
+    185             1                          8     
+    186             1                          8     
+    187             1                          8     
+    189             1                          8     
+    190             1                          8     
+    191             1                          8     
+    192             1                          8     
+    196             1                          7     
+    199             1                          1     
+    200             1                          1     
+    201             1                          1     
+    202             1                          1     
+    203             1                          1     
+    205             1                          1     
+    206             1                          1     
+    207             1                          1     
+    209             1                          6     
+    213             1                          1     
+    216             1                          1     
+    218             1                          1     
+    220             1                          1     
+    222             1                    ***0***     
+    224             1                          1     
+    226             1                          1     
+    227             1                          1     
+    228             1                          1     
+    229             1                          1     
+    231             1                    ***0***     
+    235             1                    ***0***     
+    240             1                    ***0***     
+    241             1                    ***0***     
+    242             1                    ***0***     
+    243             1                    ***0***     
+    245             1                    ***0***     
+    251             1                          7     
+    252             1                          7     
+    254             1                          7     
+    255             1                          7     
+    256             1                          7     
+    257             1                          7     
+    258             1                          7     
+    260             1                          7     
+    261             1                          7     
+    262             1                          7     
+    263             1                          7     
+    265             1                          7     
+    265             2                         28     
+    267             1                          4     
+    272             1                          1     
+    274             1                          1     
+    275             1                          1     
+    276             1                          1     
+    280             1                          7     
+    281             1                          7     
+    283             1                          7     
+    285             1                          7     
+    286             1                          7     
+    287             1                          7     
+    289             1                          7     
+    290             1                          7     
+    291             1                          7     
+    292             1                          7     
+    293             1                          7     
+    295             1                          7     
+    299             1                          6     
+    302             1                          1     
+    303             1                          1     
+    304             1                          1     
+    305             1                          1     
+    306             1                          1     
+    308             1                          1     
+    309             1                          1     
+    311             1                          5     
+    316             1                          1     
+    317             1                          1     
+    318             1                          1     
+    319             1                          1     
+    321             1                          1     
+    323             1                          1     
+    325             1                    ***0***     
+    327             1                          1     
+    328             1                          1     
+    331             1                    ***0***     
+    337             1                         13     
+    338             1                         13     
+    340             1                         13     
+    341             1                         13     
+    342             1                         13     
+    343             1                         13     
+    344             1                         13     
+    346             1                         13     
+    347             1                         13     
+    348             1                         13     
+    349             1                         13     
+    352             1                          1     
+    356             1                         13     
+    357             1                         13     
+    358             1                         13     
+    359             1                         13     
+    363             1                          5     
+    365             1                          5     
+    366             1                          5     
+    367             1                          5     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        960       153       807    15.93%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb/dut --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                            i[0-1]           0           0                                0.00 
+                                              i[2]           0           1                               50.00 
+                                           i[3-13]           0           0                                0.00 
+                                             i[14]           1           0                               50.00 
+                                          i[15-31]           0           0                                0.00 
+                                           j[0-31]           0           0                                0.00 
+                               read_addr_next[0-1]           0           0                                0.00 
+                               read_addr_next[2-5]           0           1                               50.00 
+                               read_addr_next[6-8]           0           0                                0.00 
+                                 read_addr_next[9]           0           1                               50.00 
+                             read_addr_next[10-11]           0           0                                0.00 
+                                read_addr_next[12]           0           1                               50.00 
+                             read_addr_next[13-15]           0           0                                0.00 
+                                read_addr_reg[0-1]           0           0                                0.00 
+                                read_addr_reg[2-5]           0           1                               50.00 
+                                read_addr_reg[6-8]           0           0                                0.00 
+                                  read_addr_reg[9]           0           1                               50.00 
+                              read_addr_reg[10-11]           0           0                                0.00 
+                                 read_addr_reg[12]           0           1                               50.00 
+                              read_addr_reg[13-15]           0           0                                0.00 
+                              read_addr_valid[0-3]           0           1                               50.00 
+                              read_addr_valid[4-6]           0           0                                0.00 
+                                read_addr_valid[7]           0           1                               50.00 
+                              read_addr_valid[8-9]           0           0                                0.00 
+                               read_addr_valid[10]           0           1                               50.00 
+                            read_addr_valid[11-13]           0           0                                0.00 
+                                read_burst_next[0]           0           1                               50.00 
+                                read_burst_next[1]           0           0                                0.00 
+                                 read_burst_reg[0]           0           1                               50.00 
+                                 read_burst_reg[1]           0           0                                0.00 
+                              read_count_next[0-7]           0           1                               50.00 
+                               read_count_reg[0-7]           0           1                               50.00 
+                                 read_id_next[0-7]           0           0                                0.00 
+                                  read_id_reg[0-7]           0           0                                0.00 
+                                 read_size_next[0]           0           0                                0.00 
+                                 read_size_next[1]           0           1                               50.00 
+                                 read_size_next[2]           0           0                                0.00 
+                                  read_size_reg[0]           0           0                                0.00 
+                                  read_size_reg[1]           0           1                               50.00 
+                                  read_size_reg[2]           0           0                                0.00 
+                          s_axi_araddr_valid[0-13]           0           0                                0.00 
+                          s_axi_awaddr_valid[0-13]           0           0                                0.00 
+                                    s_axi_bid[0-7]           0           0                                0.00 
+                               s_axi_bid_next[0-7]           0           0                                0.00 
+                                s_axi_bid_reg[0-7]           0           0                                0.00 
+                                    s_axi_rdata[0]           0           0                                0.00 
+                                    s_axi_rdata[1]           0           1                               50.00 
+                                    s_axi_rdata[2]           0           0                                0.00 
+                                  s_axi_rdata[3-4]           0           1                               50.00 
+                                    s_axi_rdata[5]           0           0                                0.00 
+                                    s_axi_rdata[6]           0           1                               50.00 
+                                  s_axi_rdata[7-8]           0           0                                0.00 
+                                    s_axi_rdata[9]           0           1                               50.00 
+                                   s_axi_rdata[10]           0           0                                0.00 
+                                s_axi_rdata[11-12]           0           1                               50.00 
+                                   s_axi_rdata[13]           0           0                                0.00 
+                                   s_axi_rdata[14]           0           1                               50.00 
+                                   s_axi_rdata[15]           0           0                                0.00 
+                                   s_axi_rdata[16]           0           1                               50.00 
+                                   s_axi_rdata[17]           0           0                                0.00 
+                                   s_axi_rdata[18]           0           1                               50.00 
+                                s_axi_rdata[19-20]           0           0                                0.00 
+                                   s_axi_rdata[21]           0           1                               50.00 
+                                   s_axi_rdata[22]           0           0                                0.00 
+                                s_axi_rdata[23-24]           0           1                               50.00 
+                                   s_axi_rdata[25]           0           0                                0.00 
+                                   s_axi_rdata[26]           0           1                               50.00 
+                                s_axi_rdata[27-28]           0           0                                0.00 
+                                   s_axi_rdata[29]           0           1                               50.00 
+                                   s_axi_rdata[30]           0           0                                0.00 
+                                   s_axi_rdata[31]           0           1                               50.00 
+                            s_axi_rdata_next[0-31]           0           0                                0.00 
+                        s_axi_rdata_pipe_reg[0-31]           0           0                                0.00 
+                                s_axi_rdata_reg[0]           0           0                                0.00 
+                                s_axi_rdata_reg[1]           0           1                               50.00 
+                                s_axi_rdata_reg[2]           0           0                                0.00 
+                              s_axi_rdata_reg[3-4]           0           1                               50.00 
+                                s_axi_rdata_reg[5]           0           0                                0.00 
+                                s_axi_rdata_reg[6]           0           1                               50.00 
+                              s_axi_rdata_reg[7-8]           0           0                                0.00 
+                                s_axi_rdata_reg[9]           0           1                               50.00 
+                               s_axi_rdata_reg[10]           0           0                                0.00 
+                            s_axi_rdata_reg[11-12]           0           1                               50.00 
+                               s_axi_rdata_reg[13]           0           0                                0.00 
+                               s_axi_rdata_reg[14]           0           1                               50.00 
+                               s_axi_rdata_reg[15]           0           0                                0.00 
+                               s_axi_rdata_reg[16]           0           1                               50.00 
+                               s_axi_rdata_reg[17]           0           0                                0.00 
+                               s_axi_rdata_reg[18]           0           1                               50.00 
+                            s_axi_rdata_reg[19-20]           0           0                                0.00 
+                               s_axi_rdata_reg[21]           0           1                               50.00 
+                               s_axi_rdata_reg[22]           0           0                                0.00 
+                            s_axi_rdata_reg[23-24]           0           1                               50.00 
+                               s_axi_rdata_reg[25]           0           0                                0.00 
+                               s_axi_rdata_reg[26]           0           1                               50.00 
+                            s_axi_rdata_reg[27-28]           0           0                                0.00 
+                               s_axi_rdata_reg[29]           0           1                               50.00 
+                               s_axi_rdata_reg[30]           0           0                                0.00 
+                               s_axi_rdata_reg[31]           0           1                               50.00 
+                                    s_axi_rid[0-7]           0           0                                0.00 
+                               s_axi_rid_next[0-7]           0           0                                0.00 
+                           s_axi_rid_pipe_reg[0-7]           0           0                                0.00 
+                                s_axi_rid_reg[0-7]           0           0                                0.00 
+                                       s_axi_rlast           0           1                               50.00 
+                                  s_axi_rlast_next           0           1                               50.00 
+                              s_axi_rlast_pipe_reg           0           0                                0.00 
+                                   s_axi_rlast_reg           0           1                               50.00 
+                                      s_axi_rvalid           0           1                               50.00 
+                             s_axi_rvalid_pipe_reg           0           0                                0.00 
+                                  s_axi_rvalid_reg           0           1                               50.00 
+                              write_addr_next[0-1]           0           0                                0.00 
+                              write_addr_next[2-5]           0           1                               50.00 
+                              write_addr_next[6-8]           0           0                                0.00 
+                                write_addr_next[9]           0           1                               50.00 
+                            write_addr_next[10-11]           0           0                                0.00 
+                               write_addr_next[12]           0           1                               50.00 
+                            write_addr_next[13-15]           0           0                                0.00 
+                               write_addr_reg[0-1]           0           0                                0.00 
+                               write_addr_reg[2-5]           0           1                               50.00 
+                               write_addr_reg[6-8]           0           0                                0.00 
+                                 write_addr_reg[9]           0           1                               50.00 
+                             write_addr_reg[10-11]           0           0                                0.00 
+                                write_addr_reg[12]           0           1                               50.00 
+                             write_addr_reg[13-15]           0           0                                0.00 
+                             write_addr_valid[0-3]           0           1                               50.00 
+                             write_addr_valid[4-6]           0           0                                0.00 
+                               write_addr_valid[7]           0           1                               50.00 
+                             write_addr_valid[8-9]           0           0                                0.00 
+                              write_addr_valid[10]           0           1                               50.00 
+                           write_addr_valid[11-13]           0           0                                0.00 
+                               write_burst_next[0]           0           1                               50.00 
+                               write_burst_next[1]           0           0                                0.00 
+                                write_burst_reg[0]           0           1                               50.00 
+                                write_burst_reg[1]           0           0                                0.00 
+                             write_count_next[0-7]           0           1                               50.00 
+                              write_count_reg[0-7]           0           1                               50.00 
+                                write_id_next[0-7]           0           0                                0.00 
+                                 write_id_reg[0-7]           0           0                                0.00 
+                                write_size_next[0]           0           0                                0.00 
+                                write_size_next[1]           0           1                               50.00 
+                                write_size_next[2]           0           0                                0.00 
+                                 write_size_reg[0]           0           0                                0.00 
+                                 write_size_reg[1]           0           1                               50.00 
+                                 write_size_reg[2]           0           0                                0.00 
+                               write_state_next[1]           0           0                                0.00 
+                                write_state_reg[1]           0           0                                0.00 
+
+Total Node Count     =        480 
+Toggled Node Count   =         19 
+Untoggled Node Count =        461 
+
+Toggle Coverage      =      15.93% (153 of 960 bins)
+
+=================================================================================
+=== Instance: /tb/sva
+=== Design Unit: work.sva_checker
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         4         6    40.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb/sva
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/sva_checker.sv
+------------------------------------IF Branch------------------------------------
+    535                                       14     Count coming in to IF
+    535             1                          9     
+    537             1                          5     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    539                                        5     Count coming in to IF
+    539             1                    ***0***     
+                                               5     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    548                                        5     Count coming in to IF
+    548             1                    ***0***     
+                                               5     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    549                                  ***0***     Count coming in to IF
+    549             1                    ***0***     
+    563             1                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    556                                  ***0***     Count coming in to IF
+    556             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       5         0         5     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb/sva --
+
+  File D:/AXI_UVM/sva_checker.sv
+----------------Focused Condition View-------------------
+Line       539 Item    1  (ARVALID && ARREADY)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+     ARVALID         N  '_1' not hit             Hit '_1'
+     ARREADY         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  ARVALID_0             -                             
+  Row   2:    ***0***  ARVALID_1             ARREADY                       
+  Row   3:    ***0***  ARREADY_0             ARVALID                       
+  Row   4:    ***0***  ARREADY_1             ARVALID                       
+
+----------------Focused Condition View-------------------
+Line       548 Item    1  (RVALID && RREADY)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+      RVALID         N  '_1' not hit             Hit '_1'
+      RREADY         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  RVALID_0              -                             
+  Row   2:    ***0***  RVALID_1              RREADY                        
+  Row   3:    ***0***  RREADY_0              RVALID                        
+  Row   4:    ***0***  RREADY_1              RVALID                        
+
+----------------Focused Condition View-------------------
+Line       549 Item    1  (size(outstanding_reads) > 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                     Input Term   Covered  Reason for no coverage   Hint
+                    -----------  --------  -----------------------  --------------
+  (size(outstanding_reads) > 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                       Non-masking condition(s)      
+ ---------  ---------  --------------------             -------------------------     
+  Row   1:    ***0***  (size(outstanding_reads) > 0)_0  -                             
+  Row   2:    ***0***  (size(outstanding_reads) > 0)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         2         7    22.22%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb/sva --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/sva_checker.sv
+    534             1                         14     
+    536             1                          9     
+    541             1                    ***0***     
+    542             1                    ***0***     
+    543             1                    ***0***     
+    544             1                    ***0***     
+    554             1                    ***0***     
+    561             1                    ***0***     
+    564             1                    ***0***     
+
+=================================================================================
+=== Instance: /tb
+=== Design Unit: work.tb
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         8         1    88.88%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/testbench.sv
+    67              1                          1     
+    68              1                          1     
+    72              1                          1     
+    75              1                         26     
+    75              2                         25     
+    78              1                          1     
+    79              1                          1     
+    80              1                          1     
+    81              1                    ***0***     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+=================================================================================
+=== Instance: /testbench_sv_unit
+=== Design Unit: work.testbench_sv_unit
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        88        16        72    18.18%
+
+================================Branch Details================================
+
+Branch Coverage for instance /testbench_sv_unit
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/axi_seq_item.sv
+------------------------------------IF Branch------------------------------------
+    93                                   ***0***     Count coming in to IF
+    93     1 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     2 (CP=( 32, 16, 4, 8))                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                   ***0***     Count coming in to IF
+    93     3 (CP=( 32, 16, 4, 8))                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                   ***0***     Count coming in to IF
+    93     4 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     5 (CP=( 32, 16, 4, 8))                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                   ***0***     Count coming in to IF
+    93     6 (CP=( 32, 16, 4, 8))                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                   ***0***     Count coming in to IF
+    93     7 (CP=( 32, 16, 4, 8))                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File D:/AXI_UVM/axi_sequence.sv
+------------------------------------IF Branch------------------------------------
+    60                                   ***0***     Count coming in to IF
+    60              1                    ***0***     
+    60              2                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                   ***0***     Count coming in to IF
+    60              3                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                   ***0***     Count coming in to IF
+    60              4                    ***0***     
+    60              5                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                   ***0***     Count coming in to IF
+    60              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                   ***0***     Count coming in to IF
+    60              7                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    92                                   ***0***     Count coming in to IF
+    92              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    114                                  ***0***     Count coming in to IF
+    114             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    119                                        1     Count coming in to IF
+    119             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+  File D:/AXI_UVM/master_driver.sv
+------------------------------------IF Branch------------------------------------
+    75                                         1     Count coming in to IF
+    75              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    76                                   ***0***     Count coming in to IF
+    76              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------CASE Branch------------------------------------
+    91                                         2     Count coming in to CASE
+    92              1                          1     
+    93              1                          1     
+    94              1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    94                                   ***0***     Count coming in to IF
+    94              2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    99                                         1     Count coming in to IF
+    99              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    138                                        1     Count coming in to IF
+    138             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    142                                        1     Count coming in to IF
+    142             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    170                                        1     Count coming in to IF
+    170             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+  File D:/AXI_UVM/master_monitor.sv
+------------------------------------IF Branch------------------------------------
+    60                                         1     Count coming in to IF
+    60              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    61                                   ***0***     Count coming in to IF
+    61              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    72                                        13     Count coming in to IF
+    72              1                    ***0***     
+                                              13     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    80                                   ***0***     Count coming in to IF
+    80              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    83                                        13     Count coming in to IF
+    83              1                    ***0***     
+                                              13     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    88                                   ***0***     Count coming in to IF
+    88              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                        13     Count coming in to IF
+    91              1                    ***0***     
+                                              13     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    94                                   ***0***     Count coming in to IF
+    94              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    98                                        13     Count coming in to IF
+    98              1                    ***0***     
+                                              13     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    106                                  ***0***     Count coming in to IF
+    106             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                       13     Count coming in to IF
+    109             1                    ***0***     
+                                              13     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    113                                  ***0***     Count coming in to IF
+    113             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    115                                  ***0***     Count coming in to IF
+    115             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File D:/AXI_UVM/scoreboard.sv
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              1                    ***0***     
+    14              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 3 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    13                                   ***0***     Count coming in to IF
+    13              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    15                                   ***0***     Count coming in to IF
+    15              1                    ***0***     
+    21              1                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    16                                   ***0***     Count coming in to IF
+    16              1                    ***0***     
+    18              1                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    17                                   ***0***     Count coming in to IF
+    17              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    19                                   ***0***     Count coming in to IF
+    19              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    22                                   ***0***     Count coming in to IF
+    22              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File D:/AXI_UVM/test.sv
+------------------------------------IF Branch------------------------------------
+    63                                         1     Count coming in to IF
+    63              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    65                                         1     Count coming in to IF
+    65              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      29         2        27     6.89%
+
+================================Condition Details================================
+
+Condition Coverage for instance /testbench_sv_unit --
+
+  File D:/AXI_UVM/axi_seq_item.sv
+----------------Focused Condition View-------------------
+Line       93 Item    1 (CP=( 32, 16, 4, 8)) (name == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name == 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name == 0)_0         -                             
+  Row   2:    ***0***  (name == 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       93 Item    2 (CP=( 32, 16, 4, 8)) (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+----------------Focused Condition View-------------------
+Line       60 Item    1  (name == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name == 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name == 0)_0         -                             
+  Row   2:    ***0***  (name == 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       60 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+
+----------------Focused Condition View-------------------
+Line       132 Item    1  ~(this.intf.BVALID && this.intf.BREADY)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  this.intf.BVALID         N  '_0' not hit             Hit '_0'
+  this.intf.BREADY         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  this.intf.BVALID_0    -                             
+  Row   2:          1  this.intf.BVALID_1    this.intf.BREADY              
+  Row   3:          1  this.intf.BREADY_0    this.intf.BVALID              
+  Row   4:          1  this.intf.BREADY_1    this.intf.BVALID              
+
+----------------Focused Condition View-------------------
+Line       162 Item    1  ~(this.intf.RVALID && this.intf.RREADY)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  this.intf.RVALID         Y
+  this.intf.RREADY         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  this.intf.RVALID_0    -                             
+  Row   2:          1  this.intf.RVALID_1    this.intf.RREADY              
+  Row   3:    ***0***  this.intf.RREADY_0    this.intf.RVALID              
+  Row   4:          1  this.intf.RREADY_1    this.intf.RVALID              
+
+
+----------------Focused Condition View-------------------
+Line       72 Item    1  (this.intf.ARESETn && this.intf.AWVALID && this.intf.AWREADY)
+Condition totals: 0 of 3 input terms covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  this.intf.ARESETn         N  '_1' not hit             Hit '_1'
+  this.intf.AWVALID         N  '_1' not hit             Hit '_1'
+  this.intf.AWREADY         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  this.intf.ARESETn_0   -                             
+  Row   2:    ***0***  this.intf.ARESETn_1   (this.intf.AWVALID && this.intf.AWREADY)
+  Row   3:          1  this.intf.AWVALID_0   this.intf.ARESETn             
+  Row   4:    ***0***  this.intf.AWVALID_1   (this.intf.ARESETn && this.intf.AWREADY)
+  Row   5:    ***0***  this.intf.AWREADY_0   (this.intf.ARESETn && this.intf.AWVALID)
+  Row   6:    ***0***  this.intf.AWREADY_1   (this.intf.ARESETn && this.intf.AWVALID)
+
+----------------Focused Condition View-------------------
+Line       83 Item    1  (this.intf.ARESETn && this.intf.WVALID && this.intf.WREADY && (this.write_item != null))
+Condition totals: 0 of 4 input terms covered = 0.00%
+
+                 Input Term   Covered  Reason for no coverage   Hint
+                -----------  --------  -----------------------  --------------
+          this.intf.ARESETn         N  '_1' not hit             Hit '_1'
+           this.intf.WVALID         N  '_1' not hit             Hit '_1'
+           this.intf.WREADY         N  No hits                  Hit '_0' and '_1'
+  (this.write_item != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                   Non-masking condition(s)      
+ ---------  ---------  --------------------         -------------------------     
+  Row   1:          1  this.intf.ARESETn_0          -                             
+  Row   2:    ***0***  this.intf.ARESETn_1          (this.intf.WVALID && (this.intf.WREADY && (this.write_item != null)))
+  Row   3:          1  this.intf.WVALID_0           this.intf.ARESETn             
+  Row   4:    ***0***  this.intf.WVALID_1           (this.intf.ARESETn && (this.intf.WREADY && (this.write_item != null)))
+  Row   5:    ***0***  this.intf.WREADY_0           (this.intf.ARESETn && this.intf.WVALID)
+  Row   6:    ***0***  this.intf.WREADY_1           (this.intf.ARESETn && this.intf.WVALID && (this.write_item != null))
+  Row   7:    ***0***  (this.write_item != null)_0  (this.intf.ARESETn && this.intf.WVALID && this.intf.WREADY)
+  Row   8:    ***0***  (this.write_item != null)_1  (this.intf.ARESETn && this.intf.WVALID && this.intf.WREADY)
+
+----------------Focused Condition View-------------------
+Line       91 Item    1  (this.intf.ARESETn && this.intf.BVALID && this.intf.BREADY && (this.write_item != null))
+Condition totals: 0 of 4 input terms covered = 0.00%
+
+                 Input Term   Covered  Reason for no coverage   Hint
+                -----------  --------  -----------------------  --------------
+          this.intf.ARESETn         N  '_1' not hit             Hit '_1'
+           this.intf.BVALID         N  '_1' not hit             Hit '_1'
+           this.intf.BREADY         N  No hits                  Hit '_0' and '_1'
+  (this.write_item != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                   Non-masking condition(s)      
+ ---------  ---------  --------------------         -------------------------     
+  Row   1:          1  this.intf.ARESETn_0          -                             
+  Row   2:    ***0***  this.intf.ARESETn_1          (this.intf.BVALID && (this.intf.BREADY && (this.write_item != null)))
+  Row   3:          1  this.intf.BVALID_0           this.intf.ARESETn             
+  Row   4:    ***0***  this.intf.BVALID_1           (this.intf.ARESETn && (this.intf.BREADY && (this.write_item != null)))
+  Row   5:    ***0***  this.intf.BREADY_0           (this.intf.ARESETn && this.intf.BVALID)
+  Row   6:    ***0***  this.intf.BREADY_1           (this.intf.ARESETn && this.intf.BVALID && (this.write_item != null))
+  Row   7:    ***0***  (this.write_item != null)_0  (this.intf.ARESETn && this.intf.BVALID && this.intf.BREADY)
+  Row   8:    ***0***  (this.write_item != null)_1  (this.intf.ARESETn && this.intf.BVALID && this.intf.BREADY)
+
+----------------Focused Condition View-------------------
+Line       98 Item    1  (this.intf.ARESETn && this.intf.ARVALID && this.intf.ARREADY)
+Condition totals: 0 of 3 input terms covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  this.intf.ARESETn         N  '_1' not hit             Hit '_1'
+  this.intf.ARVALID         N  '_1' not hit             Hit '_1'
+  this.intf.ARREADY         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  this.intf.ARESETn_0   -                             
+  Row   2:    ***0***  this.intf.ARESETn_1   (this.intf.ARVALID && this.intf.ARREADY)
+  Row   3:          1  this.intf.ARVALID_0   this.intf.ARESETn             
+  Row   4:    ***0***  this.intf.ARVALID_1   (this.intf.ARESETn && this.intf.ARREADY)
+  Row   5:    ***0***  this.intf.ARREADY_0   (this.intf.ARESETn && this.intf.ARVALID)
+  Row   6:    ***0***  this.intf.ARREADY_1   (this.intf.ARESETn && this.intf.ARVALID)
+
+----------------Focused Condition View-------------------
+Line       109 Item    1  (this.intf.ARESETn && this.intf.RVALID && this.intf.RREADY && (this.read_item != null))
+Condition totals: 0 of 4 input terms covered = 0.00%
+
+                Input Term   Covered  Reason for no coverage   Hint
+               -----------  --------  -----------------------  --------------
+         this.intf.ARESETn         N  '_1' not hit             Hit '_1'
+          this.intf.RVALID         N  '_1' not hit             Hit '_1'
+          this.intf.RREADY         N  No hits                  Hit '_0' and '_1'
+  (this.read_item != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                  Non-masking condition(s)      
+ ---------  ---------  --------------------        -------------------------     
+  Row   1:          1  this.intf.ARESETn_0         -                             
+  Row   2:    ***0***  this.intf.ARESETn_1         (this.intf.RVALID && (this.intf.RREADY && (this.read_item != null)))
+  Row   3:          1  this.intf.RVALID_0          this.intf.ARESETn             
+  Row   4:    ***0***  this.intf.RVALID_1          (this.intf.ARESETn && (this.intf.RREADY && (this.read_item != null)))
+  Row   5:    ***0***  this.intf.RREADY_0          (this.intf.ARESETn && this.intf.RVALID)
+  Row   6:    ***0***  this.intf.RREADY_1          (this.intf.ARESETn && this.intf.RVALID && (this.read_item != null))
+  Row   7:    ***0***  (this.read_item != null)_0  (this.intf.ARESETn && this.intf.RVALID && this.intf.RREADY)
+  Row   8:    ***0***  (this.read_item != null)_1  (this.intf.ARESETn && this.intf.RVALID && this.intf.RREADY)
+
+
+
+----------------Focused Condition View-------------------
+Line       11 Item    1  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::write)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                                              Input Term   Covered  Reason for no coverage   Hint
+                                             -----------  --------  -----------------------  --------------
+  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::write)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                                                Non-masking condition(s)      
+ ---------  ---------  --------------------                                      -------------------------     
+  Row   1:    ***0***  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::write)_0  -                             
+  Row   2:    ***0***  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::write)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       14 Item    1  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::read)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                                             Input Term   Covered  Reason for no coverage   Hint
+                                            -----------  --------  -----------------------  --------------
+  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::read)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                                               Non-masking condition(s)      
+ ---------  ---------  --------------------                                     -------------------------     
+  Row   1:    ***0***  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::read)_0  -                             
+  Row   2:    ***0***  (t.t.cmd == <axi_seq_item#41483716#85-defspec>::read)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       16 Item    1  (t.t.rdata == this.expected_mem[t.t.araddr])
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                                    Input Term   Covered  Reason for no coverage   Hint
+                                   -----------  --------  -----------------------  --------------
+  (t.t.rdata == this.expected_mem[t.t.araddr])         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                                      Non-masking condition(s)      
+ ---------  ---------  --------------------                            -------------------------     
+  Row   1:    ***0***  (t.t.rdata == this.expected_mem[t.t.araddr])_0  -                             
+  Row   2:    ***0***  (t.t.rdata == this.expected_mem[t.t.araddr])_1  -                             
+
+
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     206       120        86    58.25%
+
+================================Statement Details================================
+
+Statement Coverage for instance /testbench_sv_unit --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/AXI_UVM/axi_seq_item.sv
+    93     1 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     2 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     3 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     4 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     5 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     6 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     7 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     8 (CP=( 32, 16, 4, 8))                    ***0***     
+    93     9 (CP=( 32, 16, 4, 8))                    ***0***     
+    145    1 (CP=( 32, 16, 4, 8))                          2     
+    149    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    150    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    151    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    152    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    153    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    154    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    155    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    156    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    157    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    158    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    159    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    160    1 (CP=( 32, 16, 4, 8))                    ***0***     
+    161    1 (CP=( 32, 16, 4, 8))                    ***0***     
+  File D:/AXI_UVM/axi_sequence.sv
+    60              1                    ***0***     
+    60              2                    ***0***     
+    60              3                    ***0***     
+    60              4                    ***0***     
+    60              5                    ***0***     
+    60              6                          1     
+    60              7                    ***0***     
+    60              8                    ***0***     
+    60              9                    ***0***     
+    60             10                    ***0***     
+    68              1                          1     
+    76              1                          1     
+    78              1                          1     
+    95              1                          1     
+    97              1                          1     
+    102             1                          1     
+    104             1                          1     
+    117             1                          1     
+    119             1                          1     
+  File D:/AXI_UVM/master_sequencer.sv
+    21              1                    ***0***     
+    21              2                    ***0***     
+    21              3                          1     
+    24              1                          1     
+    28              1                          1     
+    33              1                          1     
+  File D:/AXI_UVM/master_driver.sv
+    64              1                    ***0***     
+    64              2                    ***0***     
+    64              3                          1     
+    70              1                          1     
+    74              1                          1     
+    76              1                    ***0***     
+    81              1                          1     
+    83              1                          1     
+    84              1                          3     
+    85              1                          2     
+    86              1                          2     
+    92              1                          1     
+    93              1                          1     
+    94              1                    ***0***     
+    99              1                          1     
+    101             1                          1     
+    102             1                          1     
+    103             1                          1     
+    104             1                          1     
+    105             1                          1     
+    106             1                          1     
+    107             1                          1     
+    108             1                          1     
+    109             1                          1     
+    111             1                          1     
+    112             1                    ***0***     
+    115             1                          1     
+    116             1                          1     
+    118             1                          1     
+    119             1                          1     
+    120             1                          1     
+    121             1                          1     
+    123             1                          2     
+    124             1                          1     
+    127             1                          1     
+    128             1                          1     
+    129             1                          1     
+    131             1                          1     
+    132             1                          2     
+    133             1                          1     
+    135             1                          1     
+    136             1                          1     
+    138             1                          1     
+    142             1                          1     
+    144             1                          1     
+    145             1                          1     
+    146             1                          1     
+    147             1                          1     
+    148             1                          1     
+    149             1                          1     
+    150             1                          1     
+    151             1                          1     
+    152             1                          1     
+    154             1                          1     
+    155             1                    ***0***     
+    158             1                          1     
+    159             1                          1     
+    161             1                          1     
+    162             1                          3     
+    163             1                          2     
+    165             1                          1     
+    166             1                          1     
+    167             1                          1     
+    168             1                          1     
+    170             1                          1     
+    174             1                          1     
+    175             1                          1     
+    176             1                          1     
+    177             1                          1     
+    178             1                          1     
+    179             1                          1     
+    181             1                          5     
+    181             2                          5     
+    182             1                          1     
+    183             1                          1     
+  File D:/AXI_UVM/master_monitor.sv
+    45              1                    ***0***     
+    45              2                    ***0***     
+    45              3                          1     
+    54              1                          1     
+    55              1                          1     
+    59              1                          1     
+    61              1                    ***0***     
+    66              1                          1     
+    67              1                          1     
+    69              1                          1     
+    70              1                         14     
+    73              1                    ***0***     
+    74              1                    ***0***     
+    75              1                    ***0***     
+    76              1                    ***0***     
+    77              1                    ***0***     
+    78              1                    ***0***     
+    79              1                    ***0***     
+    80              1                    ***0***     
+    84              1                    ***0***     
+    85              1                    ***0***     
+    86              1                    ***0***     
+    87              1                    ***0***     
+    88              1                    ***0***     
+    92              1                    ***0***     
+    93              1                    ***0***     
+    94              1                    ***0***     
+    95              1                    ***0***     
+    99              1                    ***0***     
+    100             1                    ***0***     
+    101             1                    ***0***     
+    102             1                    ***0***     
+    103             1                    ***0***     
+    104             1                    ***0***     
+    105             1                    ***0***     
+    106             1                    ***0***     
+    110             1                    ***0***     
+    111             1                    ***0***     
+    112             1                    ***0***     
+    113             1                    ***0***     
+    116             1                    ***0***     
+    117             1                    ***0***     
+  File D:/AXI_UVM/master_agent.sv
+    28              1                    ***0***     
+    28              2                    ***0***     
+    28              3                          1     
+    34              1                          1     
+    38              1                          1     
+    39              1                          1     
+    40              1                          1     
+    41              1                          1     
+    45              1                          1     
+    46              1                          1     
+  File D:/AXI_UVM/scoreboard.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                          1     
+    7               1                          1     
+    12              1                    ***0***     
+    13              1                    ***0***     
+    17              1                    ***0***     
+    19              1                    ***0***     
+    22              1                    ***0***     
+  File D:/AXI_UVM/axi_env.sv
+    77              1                    ***0***     
+    77              2                    ***0***     
+    77              3                          1     
+    84              1                          1     
+    88              1                          1     
+    90              1                          1     
+    91              1                          1     
+    95              1                          1     
+    97              1                          1     
+  File D:/AXI_UVM/test.sv
+    41              1                    ***0***     
+    41              2                    ***0***     
+    41              3                          2     
+    46              1                          1     
+    50              1                          1     
+    51              1                          1     
+    55              1                          1     
+    60              1                          1     
+    62              1                          1     
+    63              1                          1     
+    64              1                          1     
+    65              1                          1     
+    66              1                          1     
+
+
+Total Coverage By Instance (filtered view): 41.04%
+
